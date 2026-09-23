@@ -1,0 +1,86 @@
+h1,
+h2,
+h3,
+p,
+blockquote {
+  margin-top: 0;
+}
+
+h1,
+h2,
+h3 {
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+h2 {
+  margin-bottom: 0.85rem;
+
+  color: var(--text);
+
+  font-family: var(--body);
+
+  font-size:
+    clamp(
+      2.2rem,
+      4vw,
+      3.6rem
+    );
+
+  font-weight: 650;
+  line-height: 1.02;
+
+  letter-spacing: -0.045em;
+}
+
+h3 {
+  color: var(--text);
+
+  font-family: var(--body);
+
+  font-size:
+    clamp(
+      1.05rem,
+      1.7vw,
+      1.35rem
+    );
+
+  font-weight: 650;
+  line-height: 1.25;
+}
+
+.section-kicker,
+.hero-overline,
+.header-location,
+.brand-copy small,
+.footer-meta,
+.experience-period,
+.project-area-card > span,
+.conservation-card > span,
+.writing-label {
+  font-family: var(--mono);
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.section-kicker {
+  margin-bottom: 0.75rem;
+
+  color: var(--red);
+
+  font-size: 0.73rem;
+  font-weight: 700;
+}
+
+.section-intro {
+  max-width: 720px;
+
+  margin-bottom: 0;
+
+  color: var(--text-soft);
+
+  font-size: 1.02rem;
+}

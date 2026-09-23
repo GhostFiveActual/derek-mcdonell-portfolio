@@ -1,0 +1,56 @@
+:root {
+  --black: #070807;
+  --black-soft: #0b0c0b;
+  --charcoal: #111311;
+  --charcoal-light: #171a17;
+  --panel: #0f110f;
+  --panel-hover: #131613;
+
+  --text: #efede7;
+  --text-soft: #d3d1ca;
+  --muted: #aaaDA6;
+  --dim: #777c75;
+
+  --red: #c8272d;
+  --red-dark: #891a20;
+  --red-soft: rgba(200, 39, 45, 0.14);
+
+  --moss: #707b63;
+  --moss-soft: rgba(112, 123, 99, 0.15);
+
+  --border: #282c28;
+  --border-light: #353a35;
+
+  --body:
+    Inter,
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+
+  --mono:
+    "IBM Plex Mono",
+    "SFMono-Regular",
+    Consolas,
+    "Liberation Mono",
+    monospace;
+
+  --serif:
+    Iowan Old Style,
+    Palatino Linotype,
+    Book Antiqua,
+    Georgia,
+    serif;
+
+  --content: 1320px;
+  --page-pad: clamp(1.25rem, 4vw, 3.5rem);
+
+  --shadow:
+    0 28px 80px rgba(0, 0, 0, 0.42);
+
+  --focus:
+    0 0 0 2px var(--text),
+    0 0 0 5px rgba(200, 39, 45, 0.6);
+}
